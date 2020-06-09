@@ -1,2 +1,5 @@
-var utility2 = require('./utility2');
-module.exports = "utility1";
+import utility2 from './utility2';
+
+export default ()=>{
+    console.log('utility1');
+}

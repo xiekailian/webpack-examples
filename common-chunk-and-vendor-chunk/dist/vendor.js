@@ -4,10 +4,11 @@
 /*!*********************************!*\
   !*** ./node_modules/vendor1.js ***!
   \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("module.exports = \"vendor1\";\n\n//# sourceURL=webpack:///./node_modules/vendor1.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    console.log('vendor1');\n});\n\n//# sourceURL=webpack:///./node_modules/vendor1.js?");
 
 /***/ }),
 
@@ -15,10 +16,11 @@ eval("module.exports = \"vendor1\";\n\n//# sourceURL=webpack:///./node_modules/v
 /*!*********************************!*\
   !*** ./node_modules/vendor2.js ***!
   \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("module.exports = \"vendor2\";\n\n//# sourceURL=webpack:///./node_modules/vendor2.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    console.log('vendor2');\n});\n\n//# sourceURL=webpack:///./node_modules/vendor2.js?");
 
 /***/ })
 

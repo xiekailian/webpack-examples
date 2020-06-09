@@ -1,2 +1,3 @@
-console.log('utility2');
-module.exports = "utility2";
+export default ()=>{
+    console.log('utility2');
+}

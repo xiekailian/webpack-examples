@@ -1,4 +1,6 @@
-var utility2 = require('./utility2');
-var utility3 = require('./utility3');
+import utility2 from './utility2';
+import utility3 from './utility3';
 
-module.exports = "pageC";
+export default ()=>{
+    console.log('pageC');
+}

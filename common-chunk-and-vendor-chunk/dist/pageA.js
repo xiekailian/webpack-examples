@@ -148,7 +148,7 @@
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./pageA.js","commons~async1~async2~pageA","commons~pageA~pageB~pageC","vendor"]);
+/******/ 	deferredModules.push(["./pageA.js",0,"commons~pageA~pageB~pageC","vendor"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -159,10 +159,11 @@
 /*!******************!*\
   !*** ./pageA.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var vendor1 = __webpack_require__(/*! vendor1 */ \"./node_modules/vendor1.js\");\nvar utility1 = __webpack_require__(/*! ./utility1 */ \"./utility1.js\");\nvar utility2 = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\nconsole.log('pageA');\n// import('./async1');\n// import('./async2');\n\nmodule.exports = \"pageA\";\n\n\n//# sourceURL=webpack:///./pageA.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vendor1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vendor1 */ \"./node_modules/vendor1.js\");\n/* harmony import */ var _utility1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utility1 */ \"./utility1.js\");\n/* harmony import */ var _utility2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    //懒加载\n    // import('./async1');\n    // import('./async2');\n    console.log('pageA');\n});\n\n\n//# sourceURL=webpack:///./pageA.js?");
 
 /***/ })
 

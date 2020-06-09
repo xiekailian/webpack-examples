@@ -4,10 +4,11 @@
 /*!*********************!*\
   !*** ./utility1.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var utility2 = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\nmodule.exports = \"utility1\";\n\n//# sourceURL=webpack:///./utility1.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utility2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    console.log('utility1');\n});\n\n//# sourceURL=webpack:///./utility1.js?");
 
 /***/ })
 

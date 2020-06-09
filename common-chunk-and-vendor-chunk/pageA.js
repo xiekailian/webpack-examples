@@ -1,8 +1,10 @@
-var vendor1 = require('vendor1');
-var utility1 = require('./utility1');
-var utility2 = require('./utility2');
-console.log('pageA');
-// import('./async1');
-// import('./async2');
+import vendor1 from 'vendor1';
+import utility1 from './utility1';
+import utility2 from './utility2';
 
-module.exports = "pageA";
+export default ()=>{
+    //懒加载
+    // import('./async1');
+    // import('./async2');
+    console.log('pageA');
+}

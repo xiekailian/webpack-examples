@@ -1,2 +1,5 @@
-var utility1 = require('./utility1');
-module.exports = "async2";
+import utility1 from './utility1';
+
+export default ()=>{
+    console.log('async1');
+}

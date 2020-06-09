@@ -4,10 +4,11 @@
 /*!*********************!*\
   !*** ./utility3.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("module.exports = \"utility3\";\n\n//# sourceURL=webpack:///./utility3.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    console.log('utility3');\n});\n\n//# sourceURL=webpack:///./utility3.js?");
 
 /***/ })
 

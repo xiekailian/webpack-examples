@@ -1,7 +1,10 @@
-var vendor2 = require('vendor2');
-var utility2 = require('./utility2');
-var utility3 = require('./utility3');
-import(/* webpackChunkName: "async1" */ './async1');
-import(/* webpackChunkName: "async2" */ './async2');
+import vendor2 from 'vendor2';
+import utility2 from './utility2';
+import utility3 from './utility3';
 
-module.exports = "pageB";
+export default ()=>{
+    //懒加载
+    import(/* webpackChunkName: "async1" */ './async1');
+    import(/* webpackChunkName: "async2" */ './async2');
+    console.log('pageB');
+}

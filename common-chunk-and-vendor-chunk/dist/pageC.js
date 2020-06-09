@@ -159,10 +159,11 @@
 /*!******************!*\
   !*** ./pageC.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("var utility2 = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\nvar utility3 = __webpack_require__(/*! ./utility3 */ \"./utility3.js\");\n\nmodule.exports = \"pageC\";\n\n//# sourceURL=webpack:///./pageC.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utility2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utility2 */ \"./utility2.js\");\n/* harmony import */ var _utility3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utility3 */ \"./utility3.js\");\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (()=>{\n    console.log('pageC');\n});\n\n//# sourceURL=webpack:///./pageC.js?");
 
 /***/ })
 
